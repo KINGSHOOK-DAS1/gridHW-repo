@@ -12,7 +12,7 @@ body{
 
 .mainheader{
     width: 100%;
-    border: 2px solid;
+    box-shadow: plum 0px 0px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(200px,3fr));
     gap: 20px;
@@ -20,6 +20,7 @@ body{
     align-content: center;
     justify-items:center;
     background-color: lavender;
+    margin-bottom: 30px;
 }
 
 .logo{
@@ -78,7 +79,6 @@ body{
 }
 
 .about{
-    border: 1px solid;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,300px));
     padding: 10px;
@@ -118,7 +118,6 @@ body{
     display: grid;
     padding: 30px;
     gap: 30px;
-    border: 2px solid;
     grid-template-columns: repeat(auto-fit , minmax(200px,3fr));
     margin: auto;
     font-size: 30px;
@@ -176,7 +175,6 @@ body{
 .projects{
     display:grid;
     grid-template-columns: repeat(auto-fit ,minmax(200px,2fr));
-    border: 2px solid black;
     padding: 20px;
 }
 
@@ -260,12 +258,14 @@ body{
 
 footer{
     bottom: 0;
+    margin-top: 30px;
     display: grid;
     background-color: lavender;
     height: 90px;
     grid-template-columns: repeat(auto-fit , minmax(200px , 2fr));
     justify-items: end;
     padding: 10px;
+    box-shadow: plum 0px 0px 20px;
 }
 
 footer .social{
